@@ -47,7 +47,7 @@ app.use(function (req, res, next) {
   // +++++++++++++++++++++++++++++++++++++++++++++++
   // Elastic IP Address of EC2 Node/Express Server
   // +++++++++++++++++++++++++++++++++++++++++++++++
-  const allowedOrigins = ['http://http://54.88.176.117/']
+  const allowedOrigins = ['http://54.88.176.117']
 
   const origin = req.headers.origin
 
